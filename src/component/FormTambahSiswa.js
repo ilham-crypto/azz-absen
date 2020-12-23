@@ -57,9 +57,9 @@ export default function AddressForm() {
         <Grid item xs={12} sm={6}>
           <TextField
             required
-            id="nik"
-            name="nik"
-            label="Nik"
+            id="nisn"
+            name="nisn"
+            label="Nisn"
             fullWidth
             autoComplete="shipping address-level2"
           />
@@ -70,6 +70,26 @@ export default function AddressForm() {
             id="nama"
             name="nama"
             label="Nama"
+            fullWidth
+            autoComplete="shipping postal-code"
+          />
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <TextField
+            required
+            id="kelas"
+            name="kelas"
+            label="Kelas"
+            fullWidth
+            autoComplete="shipping postal-code"
+          />
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <TextField
+            required
+            id="alamat"
+            name="alamat"
+            label="Alamat"
             fullWidth
             autoComplete="shipping postal-code"
           />
