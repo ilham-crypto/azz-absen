@@ -14,7 +14,7 @@ function createData(id, name, absensi) {
 }
 
 const rows = [
-  createData(0, '16 Mar, 2019', 'Elvis Presley'),
+  createData(0, '16 Mar, 2019', 'Elvis Presley',),
   createData(1, '16 Mar, 2019', 'Paul McCartney'),
   createData(2, '16 Mar, 2019', 'Tom Scholz'),
   createData(3, '16 Mar, 2019', 'Michael Jackson'),
@@ -47,9 +47,9 @@ export default function DataAbsensi() {
         <TableBody>
           {rows.map((row) => (
             <TableRow key={row.id}>
+              <TableCell>{row.id}</TableCell>
               <TableCell>{row.name}</TableCell>
               <TableCell>{row.absensi}</TableCell>
-             <TableCell></TableCell>
             </TableRow>
           ))}
         </TableBody>

@@ -30,7 +30,7 @@ export default function AddressForm() {
   return (
     <React.Fragment>
       <Typography variant="h6" gutterBottom>
-        Tambah Siswa
+        Edit Siswa
       </Typography>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6}>
@@ -83,7 +83,7 @@ export default function AddressForm() {
             className={classes.submit}
             href="/Customers"
           >
-            Simpan
+            Update
           </Button>
         </Grid>
       </Grid>

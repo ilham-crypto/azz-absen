@@ -7,23 +7,23 @@ import PeopleIcon from '@material-ui/icons/People';
 
 export const mainListItems = (
   <div>
-    <ListItem button>
+     <a href="/Dashboard" style={{ color: "black", textDecoration: 'none'}}><ListItem button>
       <ListItemIcon>
         <DashboardIcon />
       </ListItemIcon>
-     <a href="/Dashboard"><ListItemText primary="ABSENSI" style={{ color: "black"}} /></a>
-    </ListItem>
-    <ListItem button>
+     <ListItemText primary="ABSENSI"/>
+    </ListItem></a>
+    <a href="/Customers" style={{ color: "black", textDecoration: 'none'}}><ListItem button>
       <ListItemIcon>
         <PeopleIcon />
       </ListItemIcon>
-      <a href="/Customers"><ListItemText primary="Data Siswa" style={{ color: "black",}} /></a>
-    </ListItem>
-    <ListItem button>
+     <ListItemText primary="Data Siswa" />
+    </ListItem></a>
+    <a href="/" style={{ color: "black", textDecoration: 'none'}}><ListItem button>
       <ListItemIcon>
         <PeopleIcon />
       </ListItemIcon>
-      <a href="/"><ListItemText primary="Log Out" style={{ color: "black",}} /></a>
-    </ListItem>
+      <ListItemText primary="Log Out"/>
+    </ListItem></a>
   </div>
 );
