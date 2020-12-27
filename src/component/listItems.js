@@ -19,12 +19,6 @@ export const mainListItems = (
       </ListItemIcon>
      <ListItemText primary="Data Siswa" />
     </ListItem></a>
-    <a href="/DataGuru" style={{ color: "black", textDecoration: 'none'}}><ListItem button>
-      <ListItemIcon>
-        <PeopleIcon />
-      </ListItemIcon>
-     <ListItemText primary="Data guru" />
-    </ListItem></a>
     <a href="/" style={{ color: "black", textDecoration: 'none'}}><ListItem button>
       <ListItemIcon>
         <PeopleIcon />

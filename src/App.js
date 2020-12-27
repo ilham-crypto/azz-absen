@@ -4,7 +4,7 @@ import Customers from './component/Customers';
 import Login from './component/Login';
 import TambahSiswa from './component/TambahSiswa'
 import EditSiswa from './component/EditSiswa';
-import DataGuru from './component/DataGuru';
+import Absensi from './component/Absensi'
 
 function App() {
   return (
@@ -12,11 +12,11 @@ function App() {
       <BrowserRouter>
           <Switch>
               <Route path='/' exact component={Login}/>
+              <Route path='/Absensi' component={Absensi}/>
               <Route path='/Dashboard' component={Dashboard}/>
               <Route path='/Customers'component={Customers}/>
               <Route path='/TambahSiswa' component={TambahSiswa}/>
               <Route path='/EditSiswa' component={EditSiswa}/>
-              <Route path='/DataGuru' component={DataGuru}/>
           </Switch>
       </BrowserRouter>
     </div>

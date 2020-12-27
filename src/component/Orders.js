@@ -7,7 +7,6 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Title from './Title';
-import Button from '@material-ui/core/Button';
 import EditIcon from '@material-ui/icons/Edit';
 import DeleteIcon from '@material-ui/icons/Delete';
 // Generate Order Data
@@ -62,10 +61,8 @@ export default function Orders() {
               <TableCell>{row.alamat}</TableCell>
               <TableCell>{row.kelas}</TableCell>
               <TableCell>
-                <Button>
                 <a href="/EditSiswa"><EditIcon></EditIcon></a>
                 <a href="/Customers"><DeleteIcon></DeleteIcon></a>
-                </Button>
               </TableCell>
             </TableRow>
           ))}
